@@ -36,7 +36,7 @@ export const siteConfig = {
 
   // 구글 서치콘솔 및 네이버 서치어드바이저 소유권 확인 메타태그 (필요 시 값 입력)
   verification: {
-    google: "",
+    google: "hAAfi8qypO3v9O8UiU36PMwwXPAcMBQARAjl98MrjFg",
     naver: "0a8e558a0afeea9e655942a12bbc0943412a79cd",
   },
 };
