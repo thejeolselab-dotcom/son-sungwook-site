@@ -11,7 +11,7 @@ export const siteConfig = {
   tagline: "CORPORATE ADVISORY · BUSINESS & OWNER WEALTH",
   description:
     "10년 이상 2,000명 이상의 기업 대표들과 만나며 법인의 재무구조, 경영 리스크, 대표 개인의 자산관리와 관련된 문제를 상담해 온 법인 컨설턴트 손성욱입니다.",
-  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://son-sungwook.vercel.app",
+  siteUrl: process.env.NEXT_PUBLIC_SITE_URL || "https://www.sonsungwook.com",
 
   // TODO: 추후 업무용 이메일과 유튜브 채널 주소를 아래 따옴표 안에 입력해 주세요.
   // 비워두면 화면에 '[업무용 이메일]', '[더절세미인 채널주소]'로 깔끔하게 표시됩니다.
