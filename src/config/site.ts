@@ -15,8 +15,8 @@ export const siteConfig = {
 
   // TODO: 추후 업무용 이메일과 유튜브 채널 주소를 아래 따옴표 안에 입력해 주세요.
   // 비워두면 화면에 '[업무용 이메일]', '[더절세미인 채널주소]'로 깔끔하게 표시됩니다.
-  email: "", // 예: "contact@thejeolse.com"
-  youtubeUrl: "", // 예: "https://www.youtube.com/@thejeolse"
+  email: "thejeolselab@gmail.com", // 예: "contact@thejeolse.com"
+  youtubeUrl: "https://www.youtube.com/channel/UCsScEodHFDld-nDuhfcq2LQ", // 예: "https://www.youtube.com/@thejeolse"
   youtubeChannelName: "더절세미인",
   youtubeDescription: "실제 사례를 기반으로 풀어보는, 더 절세하는 방법",
 
