@@ -2,7 +2,6 @@ import { siteConfig } from "@/config/site";
 
 export default function HomePage() {
   const displayEmail = siteConfig.email || "[업무용 이메일]";
-  const displayYoutube = siteConfig.youtubeUrl || "[더절세미인 채널주소]";
 
   return (
     <main className="bg-white text-black p-3 sm:p-5 text-[16px] leading-[1.6]">
@@ -14,12 +13,12 @@ export default function HomePage() {
         {siteConfig.tagline}
       </p>
 
-      {/* 2. 프로필 이미지 (왼쪽 정렬, 직각 모서리 단독 배치) */}
+      {/* 2. 프로필 이미지 (기존 200px -> 2배 크기 400px, 모바일 반응형) */}
       <div className="my-4">
         <img
           src="./profile.jpg"
           alt={`${siteConfig.fullTitle} 프로필 사진`}
-          className="w-[200px] h-auto block"
+          className="w-[400px] max-w-full h-auto block"
         />
       </div>
 
@@ -50,10 +49,12 @@ export default function HomePage() {
               rel="noopener noreferrer"
               className="text-[#0000EE] underline"
             >
-              {displayYoutube}
+              더절세미인
             </a>
           ) : (
-            <span className="text-[#0000EE] underline">{displayYoutube}</span>
+            <span className="text-[#0000EE] underline">
+              더절세미인
+            </span>
           )}
         </p>
       </section>
@@ -75,7 +76,7 @@ export default function HomePage() {
         </p>
       </section>
 
-      {/* 5. Experience | 경험 (noahshinn.com의 Papers 불릿 리스트와 동일) */}
+      {/* 5. Experience | 경험 */}
       <section aria-labelledby="experience-heading" className="my-6">
         <h2 id="experience-heading" className="text-[20px] font-bold mb-2">
           Experience | 경험
@@ -124,7 +125,7 @@ export default function HomePage() {
         </p>
       </section>
 
-      {/* 7. 하단 가로선(<hr>) + Last updated (noahshinn.com 동일 푸터) */}
+      {/* 7. 하단 가로선(<hr>) + Last updated */}
       <hr className="my-4 border-t border-neutral-300" />
       <p className="text-[14px] text-black m-0">Last updated: 11/2026</p>
     </main>
