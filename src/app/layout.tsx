@@ -32,8 +32,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: "/profile.jpg",
-        width: 640,
-        height: 960,
+        width: 1024,
+        height: 576,
         alt: `${siteConfig.fullTitle} 프로필 사진`,
       },
     ],
